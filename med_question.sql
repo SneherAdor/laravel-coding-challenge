@@ -392,7 +392,7 @@ ALTER TABLE `blogs`
 --
 -- Indexes for table `blog_categories`
 --
-ALTER TABLE `blog_categories` ENGINE=InnoDB
+ALTER TABLE `blog_categories`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `blog_categories_slug_unique` (`slug`);
 
